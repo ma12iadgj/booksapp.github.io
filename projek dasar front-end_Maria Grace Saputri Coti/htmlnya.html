@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="cssnya.css">
+    <style>
+        .book-item {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="form-data">
+        <input type="text" id="judul-buku" placeholder="Judul Buku">
+        <input type="text" id="author" placeholder="Author">
+        <input type="number" id="year" placeholder="Year">
+        <select id="rak-buku">
+            <option value="belum-selesai">Belum Selesai Dibaca</option>
+            <option value="sudah-dibaca">Sudah Selesai Dibaca</option>
+        </select>
+        <button id="btn-tambah">Tambah</button>
+    </div>
+    
+    <div id="data-buku">
+        <div id="belum-selesai">
+            <h2>Belum Selesai Dibaca</h2>
+        </div>
+        <div id="sudah-dibaca">
+            <h2>Sudah Selesai Dibaca</h2>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
